@@ -17,7 +17,7 @@ Consider there are two groups, A and B. To determine whether a data point is in 
 **Prediction** algorithm:
 
 * closest point = None
-* closest distance = $\infin$
+* closest distance = $\infty$
 * for $i=1,2,...,n:$ 
   * current distance = $d(x_i, x_q)$
   * if current distance < closest distance:
@@ -45,7 +45,7 @@ In the classification setting, the simplest incarnation of the KNN model is to p
 
 $$
 \begin{aligned}
-h\left(\mathbf{x}^{[t]}\right)=\operatorname{mode}\left(\left\{f\left(\mathbf{x}^{[1]}\right), \ldots, f\left(\mathbf{x}^{[k]}\right)\right\}\right)
+h(\mathbf{x}^{[t]})=\operatorname{mode}(\{f(\mathbf{x}^{[1]}), \ldots, f(\mathbf{x}^{[k]})\})
 \end{aligned}
 $$
 
